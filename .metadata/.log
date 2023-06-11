@@ -1,0 +1,504 @@
+!SESSION 2023-06-10 10:06:06.127 -----------------------------------------------
+eclipse.buildId=4.27.0.20230309-1200
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-06-10 10:06:07.673
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-06-10 10:07:49.960
+!MESSAGE Logback config file: C:\Users\noah\Documents\OsuWorkspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.100.20230106-1511.xml
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-06-10 10:07:50.359
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.poll.PollNewsFeedsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-06-10 10:07:50.360
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.read.ReadNewsItemsHandler
+
+!ENTRY org.eclipse.jface 2 0 2023-06-10 10:07:50.876
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-06-10 10:07:50.876
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-06-10 10:07:50.876
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-06-10 10:07:52.616
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-06-10 10:07:52.770
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\noah'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-06-10 10:07:52.794
+!MESSAGE Removing HandlerImpl with the "org.eclipse.recommenders.news.rcp.handler.pollNewsFeeds" id.It points to the non available "bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.poll.PollNewsFeedsHandler" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-06-10 10:07:52.794
+!MESSAGE Removing HandlerImpl with the "org.eclipse.recommenders.news.rcp.handler.readNewsItems" id.It points to the non available "bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.read.ReadNewsItemsHandler" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-06-10 10:07:52.797
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.gef.ui.palette_view" id and the "Palette" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-06-10 10:07:52.798
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.mylyn.builds.navigator.builds" id and the "Builds" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-06-10 10:07:52.799
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.mylyn.commons.repositories.ui.navigator.Repositories" id and the "Team Repositories" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-06-10 10:07:52.799
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.mylyn.tasks.ui.views.tasks" id and the "Task List" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-06-10 10:07:52.800
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.mylyn.tasks.ui.views.repositories" id and the "Task Repositories" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-06-10 10:07:52.802
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.search.SearchResultView" id and the "Classic Search" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-06-10 10:07:52.804
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.wst.common.snippets.internal.ui.SnippetsView" id and the "Snippets" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-06-10 10:07:52.805
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.wst.xml.ui.views.annotations.XMLAnnotationsView" id and the "Documentation" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-06-10 10:07:52.805
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.wst.xml.ui.contentmodel.view" id and the "Content Model" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-06-10 10:07:52.809
+!MESSAGE Removing PartDescriptorImpl with the "de.tobject.findbugs.view.buginfoview" id and the "Bug Info" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-06-10 10:07:52.810
+!MESSAGE Removing PartDescriptorImpl with the "de.tobject.findbugs.view.bugtreeview" id and the "Bug Explorer" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-06-10 10:07:52.810
+!MESSAGE Removing PartDescriptorImpl with the "net.sf.eclipsecs.ui.stats.views.MarkerStatsView" id and the "Checkstyle violations" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-06-10 10:07:52.811
+!MESSAGE Removing PartDescriptorImpl with the "net.sf.eclipsecs.ui.stats.views.GraphStatsView" id and the "Checkstyle violations chart" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-06-10 10:07:52.811
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.wst.internet.monitor.view" id and the "TCP/IP Monitor" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-06-10 10:07:52.812
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.wst.jsdt.ui.TypeHierarchy" id and the "Hierarchy" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-06-10 10:07:52.812
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.wst.jsdt.ui.PackageExplorer" id and the "Script Explorer" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-06-10 10:07:52.814
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.wst.jsdt.callhierarchy.view" id and the "Call Hierarchy" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-06-10 10:07:52.814
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.wst.jsdt.ui.SourceView" id and the "Declaration" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-06-10 10:07:52.815
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.wst.jsdt.ui.JavadocView" id and the "Documentation" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-06-10 10:07:52.815
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.wst.server.ui.ServersView" id and the "Servers" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-06-10 10:07:52.816
+!MESSAGE Removing PartDescriptorImpl with the "org.tigris.subversion.subclipse.ui.repository.RepositoriesView" id and the "SVN Repositories" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-06-10 10:07:52.817
+!MESSAGE Removing PartDescriptorImpl with the "org.tigris.subversion.subclipse.ui.svnproperties.SvnPropertiesView" id and the "SVN Properties" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-06-10 10:07:52.817
+!MESSAGE Removing PartDescriptorImpl with the "org.tigris.subversion.subclipse.ui.svnproperties.SvnRevPropertiesView" id and the "SVN Rev Properties" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-06-10 10:07:52.818
+!MESSAGE Removing PartDescriptorImpl with the "org.tigris.subversion.subclipse.ui.annotations.AnnotateView" id and the "SVN Annotate" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-06-10 10:07:52.819
+!MESSAGE Removing PartDescriptorImpl with the "org.tigris.subversion.subclipse.ui.conflicts.TreeConflictsView" id and the "SVN Tree Conflicts" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-06-10 10:32:14.978
+!MESSAGE The digest algorithms (md5) used to verify osgi.bundle,com.github.spotbugs.plugin.eclipse,4.7.3.r202210170504-fa9e53a have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2023-06-10 10:33:35.452
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2023-06-10 10:33:35.452
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-06-10 10:33:35.452
+!MESSAGE Software being installed: Subclipse Integration for Mylyn (Optional) 4.2.0.1 (org.tigris.subversion.subclipse.mylyn.feature.feature.group 4.2.0.1)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-06-10 10:33:35.452
+!MESSAGE Missing requirement: Subclipse Integration for Mylyn (Optional) 4.2.0.1 (org.tigris.subversion.subclipse.mylyn.feature.feature.group 4.2.0.1) requires 'org.eclipse.equinox.p2.iu; org.eclipse.mylyn.tasks.ui 0.0.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2023-06-10 10:33:35.456
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2023-06-10 10:33:35.456
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-06-10 10:33:35.456
+!MESSAGE Software being installed: Subclipse Integration for Mylyn (Optional) 4.2.0.1 (org.tigris.subversion.subclipse.mylyn.feature.feature.group 4.2.0.1)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-06-10 10:33:35.456
+!MESSAGE Missing requirement: Subclipse Integration for Mylyn (Optional) 4.2.0.1 (org.tigris.subversion.subclipse.mylyn.feature.feature.group 4.2.0.1) requires 'org.eclipse.equinox.p2.iu; org.eclipse.mylyn.tasks.ui 0.0.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2023-06-10 10:33:35.460
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2023-06-10 10:33:35.460
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-06-10 10:33:35.460
+!MESSAGE Software being installed: Subclipse Integration for Mylyn (Optional) 4.2.0.1 (org.tigris.subversion.subclipse.mylyn.feature.feature.group 4.2.0.1)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-06-10 10:33:35.460
+!MESSAGE Missing requirement: Subclipse Integration for Mylyn (Optional) 4.2.0.1 (org.tigris.subversion.subclipse.mylyn.feature.feature.group 4.2.0.1) requires 'org.eclipse.equinox.p2.iu; org.eclipse.mylyn.tasks.ui 0.0.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2023-06-10 10:33:35.462
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2023-06-10 10:33:35.462
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-06-10 10:33:35.462
+!MESSAGE Software being installed: Subclipse Integration for Mylyn (Optional) 4.2.0.1 (org.tigris.subversion.subclipse.mylyn.feature.feature.group 4.2.0.1)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-06-10 10:33:35.462
+!MESSAGE Missing requirement: Subclipse Integration for Mylyn (Optional) 4.2.0.1 (org.tigris.subversion.subclipse.mylyn.feature.feature.group 4.2.0.1) requires 'org.eclipse.equinox.p2.iu; org.eclipse.mylyn.tasks.ui 0.0.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2023-06-10 10:34:00.965
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2023-06-10 10:34:00.965
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-06-10 10:34:00.965
+!MESSAGE Software being installed: Subclipse Integration for Mylyn (Optional) 4.2.0.1 (org.tigris.subversion.subclipse.mylyn.feature.feature.group 4.2.0.1)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-06-10 10:34:00.965
+!MESSAGE Missing requirement: Subclipse Integration for Mylyn (Optional) 4.2.0.1 (org.tigris.subversion.subclipse.mylyn.feature.feature.group 4.2.0.1) requires 'org.eclipse.equinox.p2.iu; org.eclipse.mylyn.tasks.ui 0.0.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2023-06-10 10:34:00.967
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2023-06-10 10:34:00.967
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-06-10 10:34:00.967
+!MESSAGE Software being installed: Subclipse Integration for Mylyn (Optional) 4.2.0.1 (org.tigris.subversion.subclipse.mylyn.feature.feature.group 4.2.0.1)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-06-10 10:34:00.967
+!MESSAGE Missing requirement: Subclipse Integration for Mylyn (Optional) 4.2.0.1 (org.tigris.subversion.subclipse.mylyn.feature.feature.group 4.2.0.1) requires 'org.eclipse.equinox.p2.iu; org.eclipse.mylyn.tasks.ui 0.0.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2023-06-10 10:34:00.974
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2023-06-10 10:34:00.974
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-06-10 10:34:00.974
+!MESSAGE Software being installed: Subclipse Integration for Mylyn (Optional) 4.2.0.1 (org.tigris.subversion.subclipse.mylyn.feature.feature.group 4.2.0.1)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-06-10 10:34:00.974
+!MESSAGE Missing requirement: Subclipse Integration for Mylyn (Optional) 4.2.0.1 (org.tigris.subversion.subclipse.mylyn.feature.feature.group 4.2.0.1) requires 'org.eclipse.equinox.p2.iu; org.eclipse.mylyn.tasks.ui 0.0.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2023-06-10 10:34:00.975
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2023-06-10 10:34:00.975
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-06-10 10:34:00.975
+!MESSAGE Software being installed: Subclipse Integration for Mylyn (Optional) 4.2.0.1 (org.tigris.subversion.subclipse.mylyn.feature.feature.group 4.2.0.1)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-06-10 10:34:00.975
+!MESSAGE Missing requirement: Subclipse Integration for Mylyn (Optional) 4.2.0.1 (org.tigris.subversion.subclipse.mylyn.feature.feature.group 4.2.0.1) requires 'org.eclipse.equinox.p2.iu; org.eclipse.mylyn.tasks.ui 0.0.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-10 10:35:07.129
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.tigris.subversion.clientadapter.svnkit,1.8.12.3.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-10 10:35:07.130
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.collabnet.subversion.merge,4.2.0.1.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-10 10:35:07.130
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.tigris.subversion.clientadapter,1.10.0.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-10 10:35:07.130
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.tigris.subversion.clientadapter.svnkit.feature,1.8.12.3.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-10 10:35:07.291
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.tigris.subversion.subclipse.core,4.3.3.202012181204.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-10 10:35:07.323
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.tigris.subversion.subclipse,4.3.3.202012181204.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-10 10:35:07.335
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.tigris.subversion.subclipse.graph,4.2.0.1.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-10 10:35:07.464
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.tigris.subversion.subclipse.graph.feature,4.2.0.1.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-10 10:35:07.483
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.tigris.subversion.subclipse.ui,4.3.3.202012181204.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-10 10:35:08.388
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.tigris.subversion.clientadapter.javahl.win64,1.11.1.201901162041.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-10 10:35:08.388
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.tigris.subversion.clientadapter.javahl,1.11.1.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-10 10:35:08.388
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.tigris.subversion.clientadapter.javahl.feature,1.11.1.201901162041.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-06-10 10:35:09.787
+!MESSAGE The digest algorithms (md5) used to verify osgi.bundle,com.trilead.ssh2,1.0.0.build222_185 have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-06-10 10:35:09.788
+!MESSAGE The digest algorithms (md5) used to verify osgi.bundle,org.tmatesoft.sqljet,1.1.13.r1341 have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-06-10 10:35:09.788
+!MESSAGE The digest algorithms (md5) used to verify org.eclipse.update.feature,net.java.dev.jna,4.1.0.v06022015_1911 have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-06-10 10:35:09.788
+!MESSAGE The digest algorithms (md5) used to verify osgi.bundle,net.java.dev.jna,4.1.0.v06022015_1911 have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-06-10 10:35:09.907
+!MESSAGE The digest algorithms (md5) used to verify osgi.bundle,org.tmatesoft.svnkit,1.10.2.r10793 have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-06-10 10:35:10.064
+!MESSAGE The digest algorithms (md5) used to verify org.eclipse.update.feature,org.tmatesoft.svnkit,1.10.2.r10793 have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-10 10:35:11.902
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.sonatype.m2e.subclipse,1.0.0.201609101315.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-10 10:35:11.902
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.sonatype.m2e.subclipse.feature,1.0.0.201609101315.
+!SESSION 2023-06-10 10:39:08.222 -----------------------------------------------
+eclipse.buildId=4.27.0.20230309-1200
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/C:/Users/noah/Documents/OsuWorkspace/ -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-06-10 10:39:11.169
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-06-10 10:39:12.436
+!MESSAGE Logback config file: C:\Users\noah\Documents\OsuWorkspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.100.20230106-1511.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-06-10 10:39:13.444
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-06-10 10:39:13.444
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-06-10 10:39:13.444
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.rap.tools.launch.RAPLaunchShortcut.run"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.wst.server.launchShortcut.run"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-06-10 10:39:13.444
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-06-10 10:39:13.444
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.wst.server.launchShortcut.debug"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-06-10 10:39:17.879
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-06-10 10:39:18.262
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\noah'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.github.spotbugs.plugin.eclipse 4 0 2023-06-10 10:40:13.059
+!MESSAGE Library not found in plugin: /lib/spotbugs-annotations-4.7.3.jar
+
+!ENTRY com.github.spotbugs.plugin.eclipse 4 0 2023-06-10 10:40:13.059
+!MESSAGE Unable to find path for variable: FINDBUGS_ANNOTATIONS
+
+!ENTRY com.github.spotbugs.plugin.eclipse 4 0 2023-06-10 10:40:13.060
+!MESSAGE Library not found in plugin: /lib/jsr305-3.0.1.jar
+
+!ENTRY com.github.spotbugs.plugin.eclipse 4 0 2023-06-10 10:40:13.060
+!MESSAGE Unable to find path for variable: JSR305_ANNOTATIONS
+
+!ENTRY com.github.spotbugs.plugin.eclipse 4 0 2023-06-10 10:40:13.060
+!MESSAGE Library not found in plugin: /lib/spotbugs-annotations-4.7.3.jar
+
+!ENTRY com.github.spotbugs.plugin.eclipse 4 0 2023-06-10 10:40:13.060
+!MESSAGE Unable to find path for variable: FINDBUGS_ANNOTATIONS
+
+!ENTRY com.github.spotbugs.plugin.eclipse 4 0 2023-06-10 10:40:13.062
+!MESSAGE Library not found in plugin: /lib/jsr305-3.0.1.jar
+
+!ENTRY com.github.spotbugs.plugin.eclipse 4 0 2023-06-10 10:40:13.062
+!MESSAGE Unable to find path for variable: JSR305_ANNOTATIONS
+!SESSION 2023-06-11 09:18:27.535 -----------------------------------------------
+eclipse.buildId=4.27.0.20230309-1200
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-06-11 09:18:29.464
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-06-11 09:18:34.999
+!MESSAGE Logback config file: C:\Users\noah\Documents\OsuWorkspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.100.20230106-1511.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-06-11 09:18:46.890
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-06-11 09:18:46.890
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-06-11 09:18:46.890
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.rap.tools.launch.RAPLaunchShortcut.run"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.wst.server.launchShortcut.run"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-06-11 09:18:46.890
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-06-11 09:18:46.890
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.wst.server.launchShortcut.debug"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-06-11 09:18:51.077
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-06-11 09:18:51.492
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\noah'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
