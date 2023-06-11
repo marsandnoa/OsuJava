@@ -6,3 +6,6 @@
 2023-06-11 09:19:04,424 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@30e286f8{/help,null,AVAILABLE}
 2023-06-11 09:19:04,437 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@11ad5113{HTTP/1.1, (http/1.1)}{127.0.0.1:51134}
 2023-06-11 09:19:04,439 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started Server@57a76279{STARTING}[10.0.13,sto=0] @37269ms
+2023-06-11 15:00:26,145 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@57a76279{STOPPING}[10.0.13,sto=0]
+2023-06-11 15:00:26,152 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@11ad5113{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2023-06-11 15:00:26,169 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@30e286f8{/help,null,STOPPED}
