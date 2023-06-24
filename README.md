@@ -1,2 +1,2 @@
 # OsuJava
-OSU Software 2 labs
+OSU Software 2 labs and Projects
