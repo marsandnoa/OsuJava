@@ -31,22 +31,20 @@ public final class BinaryTreeMethods {
      */
     public static <T> int height(BinaryTree<T> t) {
         assert t != null : "Violation of: t is not null";
-
-        String parser = t.toString();
-        parser = parser.replace("compose", "");
-        parser = parser.replace("empty_tree", "");
-        parser = parser.replace(",", "");
-        System.out.println(parser);
-        int i = 0;
         int output = 0;
-        while (i < parser.length()) {
-            if (parser.charAt(i) != '(' || parser.charAt(i) != ')') {
-                System.out.println(parser.charAt(i));
-                output++;
-            }
-            i++;
-        }
 
+        if (t.size() != 0) {
+            BinaryTree left = t.newInstance();
+            BinaryTree right = t.newInstance();
+            T root = t.root();
+            t.disassemble(left, right);
+            if (height(left) >= height(right)) {
+                output = height(left) + 1;
+            } else {
+                output = height(right) + 1;
+            }
+            t.assemble(root, left, right);
+        }
         return output;
     }
 
@@ -68,10 +66,20 @@ public final class BinaryTreeMethods {
         assert t != null : "Violation of: t is not null";
         assert x != null : "Violation of: x is not null";
 
-        // TODO - fill in body
-
-        // This line added just to make the component compilable.
-        return false;
+        boolean output = false;
+        if (t.size() != 0) {
+            if (t.root().equals(x)) {
+                output = true;
+            } else {
+                BinaryTree left = t.newInstance();
+                BinaryTree right = t.newInstance();
+                T root = t.root();
+                t.disassemble(left, right);
+                output = isInTree(left, x) || isInTree(right, x);
+                t.assemble(root, left, right);
+            }
+        }
+        return output;
     }
 
     /**
