@@ -1,4 +1,9 @@
+import java.util.Iterator;
+
+import org.junit.Test;
+
 import components.set.Set;
+import junit.framework.Assert;
 
 /**
  * JUnit test fixture for {@code Set<String>}'s constructor and kernel methods.
@@ -66,6 +71,70 @@ public abstract class SetTest {
         return set;
     }
 
-    // TODO - add test cases for constructor, add, remove, removeAny, contains, and size
+    @Test
+    public void testConstructorEmptySet() {
+        Set<String> set = this.constructorTest();
+        Assert.assertEquals(0, set.size());
+    }
+
+    @Test
+    public void testAdd() {
+        Set<String> set = this.constructorTest();
+        set.add("a");
+        set.add("b");
+        set.add("c");
+        Assert.assertEquals(3, set.size());
+    }
+
+    @Test
+    public void testRemoveAny() {
+        Set<String> set = this.createFromArgsTest("a", "b", "c");
+        String removed = set.removeAny();
+        Assert.assertNotNull(removed);
+        Assert.assertFalse(set.contains(removed));
+    }
+
+    @Test
+    public void testContains() {
+        Set<String> set = this.createFromArgsTest("a", "b", "c");
+        Assert.assertTrue(set.contains("b"));
+        Assert.assertFalse(set.contains("d"));
+    }
+
+    @Test
+    public void testSize() {
+        Set<String> set = this.createFromArgsTest("a", "b", "c");
+        Assert.assertEquals(3, set.size());
+    }
+
+    @Test
+    public void testClear() {
+        Set<String> set = this.createFromArgsTest("a", "b", "c");
+        set.clear();
+        Assert.assertEquals(0, set.size());
+    }
+
+    @Test
+    public void testAddAll() {
+        Set<String> set = this.createFromArgsTest("a", "b");
+        Set<String> otherSet = this.createFromArgsTest("c", "d");
+        set.add(otherSet);
+        Assert.assertEquals(4, set.size());
+        Assert.assertTrue(set.contains("c"));
+        Assert.assertTrue(set.contains("d"));
+    }
+
+    @Test
+    public void testIterator() {
+        Set<String> set = this.createFromArgsTest("a", "b", "c");
+        Iterator<String> iterator = set.iterator();
+        Assert.assertTrue(iterator.hasNext());
+        Assert.assertTrue(set.contains(iterator.next()));
+        Assert.assertTrue(iterator.hasNext());
+        Assert.assertTrue(set.contains(iterator.next()));
+        Assert.assertTrue(iterator.hasNext());
+        Assert.assertTrue(set.contains(iterator.next()));
+        Assert.assertFalse(iterator.hasNext());
+    }
 
 }
