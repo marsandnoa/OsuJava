@@ -5,11 +5,7 @@ This repository contains Java projects and homework assignments that culminate i
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Projects](#projects)
-- [Homeworks](#homeworks)
 - [Mini Compiler](#mini-compiler)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
